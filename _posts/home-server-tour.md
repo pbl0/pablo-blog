@@ -8,8 +8,8 @@ author:
   picture: ''
 ogImage:
   url: '/assets/blog/home-server-tour/cover.png'
-width: '1920'
-height: '1080'
+width: '1591'
+height: '736'
 ---
 
 Just a little video showcasing the services I'm running on my little home server hosted at my RaspberryPi which runs [Manjaro ARM Minimal](https://manjaro.org/download/#raspberry-pi-4-minimal).
