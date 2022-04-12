@@ -14,7 +14,7 @@ const CoverImage = ({ title, src, width, height, slug }: Props) => {
   const image = (
           <Image
     src={src}
-    alt="Picture of the author"
+    alt="Cover of the post"
     width={width}
     height={height}
     priority
