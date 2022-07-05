@@ -1,11 +1,9 @@
 import Container from '../components/container'
 import MoreStories from '../components/more-stories'
 import HeroPost from '../components/hero-post'
-import Intro from '../components/intro'
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
-import { CMS_NAME } from '../lib/constants'
 import Post from '../types/post'
 import Bio from '../components/bio'
 import { config, dom } from "@fortawesome/fontawesome-svg-core";
@@ -26,24 +24,22 @@ const Index = ({ allPosts }: Props) => {
           <title>pablo blog.</title>
         </Head>
         <Container>
-          <div className="columns is-mobile">
-            <Intro />
-            <Bio/>
+
+          <div className='principal'>
+            {heroPost && (
+              <HeroPost
+                title={heroPost.title}
+                coverImage={heroPost.coverImage}
+                date={heroPost.date}
+                author={heroPost.author}
+                slug={heroPost.slug}
+                excerpt={heroPost.excerpt}
+                height={heroPost.height}
+                width={heroPost.width}
+              />
+            )}
+            {morePosts.length > 0 && <MoreStories posts={morePosts} />}
           </div>
-          
-          {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-              height={heroPost.height}
-              width={heroPost.width}
-            />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
       </Layout>
     </>

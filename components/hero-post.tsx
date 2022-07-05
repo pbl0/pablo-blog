@@ -1,4 +1,3 @@
-import Avatar from './avatar'
 import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
 import Link from 'next/link'
@@ -25,6 +24,11 @@ const HeroPost = ({
   height,
   slug,
 }: Props) => {
+  const maxHeight = '420'
+  const originalHeight = Number(height);
+  height = Number(height) < Number(maxHeight) ? height : maxHeight; 
+  const resizeRatio = originalHeight / Number(height);
+  width = String(Number(width) / resizeRatio);
   return (
     <section>
       <div className="mb-2">

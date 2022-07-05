@@ -1,6 +1,10 @@
-import Alert from './alert'
+// import Alert from './alert'
+import Bio from './bio'
+import Container from './container'
 import Footer from './footer'
+import Intro from './intro'
 import Meta from './meta'
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 type Props = {
   preview?: boolean
@@ -13,7 +17,16 @@ const Layout = ({ preview, children }: Props) => {
       <Meta />
       <div className="min-h-screen">
         {/* <Alert preview={preview} /> */}
-        <main>{children}</main>
+        <main>
+          <Container>
+            <div className="columns is-mobile">
+              <Intro />
+              <Bio/>
+            </div>
+            
+          </Container>
+          <hr />
+          {children}</main>
       </div>
       <Footer />
     </>

@@ -1,4 +1,3 @@
-import Avatar from './avatar'
 import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
 import Link from 'next/link'
@@ -30,15 +29,17 @@ const PostPreview = ({
       <div className="mb-5">
         <CoverImage slug={slug} title={title} src={coverImage} width={width} height={height} />
       </div>
-      <div className="columns is-mobile">
-      <h3 className="title is-5 column is-two-thirds is-mobile">
+      <div className="rows">
+      <h3 className="title is-4">
         <Link as={`/posts/${slug}`} href="/posts/[slug]">
           <a className="hover:underline">{title}</a>
         </Link>
       </h3>
-        <div className="column has-text-weight-light has-text-right">
+      <div className="row has-text-weight-light has-text-left">
           <DateFormatter dateString={date} />
-        </div>
+          <hr className="border-neutral-200 mt-28 mb-24" />
+      </div>
+
 
       </div>
 

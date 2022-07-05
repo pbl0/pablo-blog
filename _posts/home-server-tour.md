@@ -1,6 +1,6 @@
 ---
 title: 'RaspberryPi home server tour'
-excerpt: "This game is incredible. Here is yet another space engine zoom out video. Enjoy the ride!"
+excerpt: "Just a little video showcasing the services I'm running on my little home server hosted at my RaspberryPi which runs Manjaro ARM Minimal"
 coverImage: '/assets/blog/home-server-tour/cover.png'
 date: "2022-04-12T15:18:03.284Z"
 author:

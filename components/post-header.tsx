@@ -1,4 +1,3 @@
-import Avatar from './avatar'
 import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
 import PostTitle from './post-title'
@@ -21,6 +20,11 @@ const PostHeader = ({
   width,
   height
 }: Props) => {
+  const maxHeight = '394'
+  const originalHeight = Number(height);
+  height = Number(height) < Number(maxHeight) ? height : maxHeight; 
+  const resizeRatio = originalHeight / Number(height);
+  width = String(Number(width) / resizeRatio);
   return (
     <>
       <PostTitle>{title}</PostTitle>
