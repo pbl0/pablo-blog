@@ -27,7 +27,6 @@ const PostPreview = ({
   hidden
 }: Props) => {
   if (hidden){
-    console.log('hidden')
     return null
   } else {
     return (

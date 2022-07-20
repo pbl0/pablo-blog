@@ -59,5 +59,9 @@ hr {
 }
 
 .emoji{
-    font-size: 45px;
+    transition: font-size 0.5s;
+    font-size: 49px;
+}
+.emoji:hover{
+    font-size: 69px;
 }

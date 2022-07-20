@@ -4,7 +4,6 @@ import { useRouter } from 'next/router'
 const Intro = () => {
   const router = useRouter()
   const url = router.asPath
-  console.log('url', url)
 
   return (
     <section className="column my-6 my-link">
