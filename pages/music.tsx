@@ -16,8 +16,8 @@ const Index = () => {
           <title>Music | pablo blog.</title>
         </Head>
         <Container>
-          <div className="columns is-mobile is-centered">
-            <div className=" column is-half">
+          <div className="columns is-centered">
+            <div className=" column is-one-third">
               The playlists I enjoy listening:
             </div>
           </div>
