@@ -2,6 +2,7 @@
 
 $link: #56AEC4;
 $primary: $link;
+$hr: #56AEC460;
 $white: #E1F0F0;
 
 $body-background-color: $white;
@@ -30,7 +31,7 @@ body {
 }
 
 hr {
-    border: 1px solid $link;
+    border: 0.5px solid $hr;
 }
 
 .iframe-container {
@@ -55,4 +56,8 @@ hr {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.emoji{
+    font-size: 45px;
 }

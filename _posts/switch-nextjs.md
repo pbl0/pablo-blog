@@ -12,9 +12,9 @@ width: '1080'
 height: '810'
 ---
 
-As you may have read on my first post this blog started as a little GatsbyJS website. Although I like Gatsby, It's been a while I was wanting to dip my toes on the very famous and praised react framework called Next.js, as so many videos and articles are always pointing out how great it is.
+As you may have read on my first post this blog started as a little GatsbyJS website. Although I like Gatsby, It's been a while I was wanting to dip my toes on the very famous and praised react framework called Next.js, as so many (probably paid) videos and articles are always pointing out how great it is.
 
-I migrated this blog mostly because of my lack of good ideas to start with this framework.  So, I initiated the project with the [blog-starter-typescript](https://github.com/vercel/next.js/tree/canary/examples/blog-starter-typescript) and after cleaning up some of the components I won't and changing a bit of CSS I call it done. Apparently this example comes with Tailwind css configured, but I feel more conformable with Bulma, so I've switched to that.
+I migrated this blog mostly because of my lack of good ideas to start with this framework.  So, I initiated the project with the [blog-starter-typescript](https://github.com/vercel/next.js/tree/canary/examples/blog-starter-typescript) and after cleaning up some of the components I won't be using and changing a bit of CSS I call it done. Apparently this example comes with Tailwind css configured, but I feel more conformable with Bulma, so I've switched to that.
 
 Overall the whole process was pretty straight forward, but I can't see yet the so-called full potential of Next.js.
 

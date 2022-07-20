@@ -31,7 +31,9 @@ const PostHeader = ({
       <div className="hidden my-3">
       </div>
       <div className="mb-3">
+        {coverImage != '' &&
         <CoverImage title={title} src={coverImage} width={width} height={height} />
+        }
       </div>
       <div className="">
         <div className="mb-2">

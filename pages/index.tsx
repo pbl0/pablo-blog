@@ -7,6 +7,7 @@ import Head from 'next/head'
 import Post from '../types/post'
 import Bio from '../components/bio'
 import { config, dom } from "@fortawesome/fontawesome-svg-core";
+
 config.autoAddCss = false;
 
 type Props = {
@@ -58,6 +59,7 @@ export const getStaticProps = async () => {
     'width',
     'height',
     'excerpt',
+    'hidden'
   ])
 
   return {

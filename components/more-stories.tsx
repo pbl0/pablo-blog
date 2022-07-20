@@ -22,6 +22,7 @@ const MoreStories = ({ posts }: Props) => {
             excerpt={post.excerpt}
             width={post.width}
             height={post.height}
+            hidden={post.hidden}
           />
         ))}
       </div>
