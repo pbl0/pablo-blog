@@ -13,7 +13,7 @@ const Index = () => {
       <Layout>
         <Head>
           <style>{dom.css()}</style>
-          <title>pablo blog.</title>
+          <title>Music | pablo blog.</title>
         </Head>
         <Container>
           <div className="columns is-mobile is-centered">
@@ -28,8 +28,6 @@ const Index = () => {
               src="https://widget.deezer.com/widget/dark/playlist/9985957262"
               width="100%"
               height="300"
-              frameborder="0"
-              allowtransparency="true"
               allow="encrypted-media; clipboard-write"
             ></iframe>
             <iframe
@@ -37,8 +35,6 @@ const Index = () => {
               src="https://widget.deezer.com/widget/dark/playlist/10362466642"
               width="100%"
               height="300"
-              frameborder="0"
-              allowtransparency="true"
               allow="encrypted-media; clipboard-write"
             ></iframe>
             <iframe
@@ -46,8 +42,6 @@ const Index = () => {
               src="https://widget.deezer.com/widget/dark/playlist/8024939502"
               width="100%"
               height="300"
-              frameborder="0"
-              allowtransparency="true"
               allow="encrypted-media; clipboard-write"
             ></iframe>
           </div>
