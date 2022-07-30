@@ -13,7 +13,7 @@ height: ''
 hidden: true
 ---
 
-I'm Pablo, a (web) programmer and this is my website. Professionally I've worked mostly with Angular, but from time to time I like to mess around with Python, React, Godot and a few others. Besides computers and programming I also love listening (and sometimes pretending to play) music, playing video-games and reading books. I also have fun with some gardening and taking random pictures. Oh, I also like dogs, of course.
+I'm Pablo, a (web) programmer and this is my website. Professionally I've worked mostly with Angular, but from time to time I also mess around with Python, React, Godot and a few others. Besides computers and programming I also love listening (and sometimes pretending to play) music, playing video-games and reading books. I also have fun with some gardening and taking random pictures. Oh, I also like dogs, of course.
 
 ### Why did you make a website?
 Why not?
@@ -32,5 +32,9 @@ Why not?
 ### A picture of my friend (Amora)
 
 ![Amora is a dog](https://raw.githubusercontent.com/pbl0/pablo-blog/master/public/assets/blog/me/amora720.jpg)
+
+### Where the source?
+
+If you really want to check the source code you can [click here](https://github.com/pbl0/pablo-blog). But be aware, this is one of my first React (NextJS) projects so the code could be (and probably is) a bit too messy, so make sure to bring an umbrella.
 
 ### A random emoji
