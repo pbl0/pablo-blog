@@ -31,6 +31,6 @@ Why not?
 
 ### A picture of my dog (Amora)
 
-![Amora is a dog](https://raw.githubusercontent.com/pbl0/pablo-blog/master/public/assets/blog/me/amora.jpg)
+![Amora is a dog](https://raw.githubusercontent.com/pbl0/pablo-blog/master/public/assets/blog/me/amora720.jpg)
 
 ### A random emoji
