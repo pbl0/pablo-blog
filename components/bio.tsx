@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faGithub, faYoutube} from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link'
+import ThemeChanger from './theme-changer'
 
 const Bio = ()=>{
 
@@ -16,9 +17,9 @@ const Bio = ()=>{
         if (item.url != ''){
             let link = (
                 <div key={item.url} className='column mr-1 is-4'>
-                <a href={`https://${item.url}`}>
-                    <FontAwesomeIcon className='' icon={item.icon} size="2x"/>
-                </a> 
+                    <a href={`https://${item.url}`}>
+                        <FontAwesomeIcon className='' icon={item.icon} size="2x"/>
+                    </a>
                 </div>
 
             )
@@ -28,12 +29,10 @@ const Bio = ()=>{
 
     }
 
-
-    
-
     return (
         <div className="column my-6">
             <div className="columns is-mobile is-pulled-right">
+                <ThemeChanger></ThemeChanger>
                 {links}
             </div>
             

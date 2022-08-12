@@ -1,13 +1,33 @@
 @import '../node_modules/bulma/sass/utilities/initial-variables';
 
+:root {
+    /* Your default theme */
+    --hr: #56AEC460;
+    --body-background-color: #E1F0F0;
+    --text: #252B2C;
+    --link-hover: #252B2C;
+  }
+  
+  [data-theme='dark'] {
+    /* Dark theme */
+    --hr: #56AEC460;
+    --body-background-color: #181A1B;
+    --text: #CECAC4;
+    --link-hover: #CECAC4;
+  }
+
+
 $link: #56AEC4;
 $primary: $link;
-$hr: #56AEC460;
 $white: #E1F0F0;
 
-$body-background-color: $white;
-$text: #252B2C;
+$hr: var(--hr);
+$body-background-color: var(--body-background-color);
+$text: var(--text);
+
 @import '~bulma/bulma';
+
+
 
 .title {
     color: $text;
@@ -24,6 +44,7 @@ $text: #252B2C;
 
 a:hover {
     text-decoration: underline;
+    color: var(--link-hover) !important
 }
 
 body {
