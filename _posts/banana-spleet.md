@@ -17,3 +17,5 @@ Recently I've been working on my spare time on a simple GUI app for the interest
 As Spleeter is originally just a CLI app, what I did was basically a GUI to use it. I've found a few similar projects on github but the ones that stood out to me sadly only worked on Windows (I use linux btw). **It was also a great opportunity to use this silly name.**
 
 My take on this was using python, not only because I'm already quite familiar with this language, but also because that's also what Spleeter is built with, so I can easily import it's methods.
+
+You can read more and install [from here](https://github.com/pbl0/banana_spleet).
