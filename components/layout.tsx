@@ -19,7 +19,7 @@ const Layout = ({ preview, children }: Props) => {
         {/* <Alert preview={preview} /> */}
         <main>
           <Container>
-            <div className="columns is-mobile">
+            <div className="columns">
               <Intro />
               <Bio/>
             </div>

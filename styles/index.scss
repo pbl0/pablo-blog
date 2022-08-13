@@ -86,3 +86,18 @@ hr {
 .emoji:hover{
     font-size: 69px;
 }
+
+@media (min-width: 769px)  {
+    .my-icon{
+        font-size: 2em;
+    }
+}
+@media (max-width: 768px)  {
+    .is-pulled-right{
+        float: left !important;
+    }
+
+    .my-icon{
+        font-size: 1.5em;
+    }
+}

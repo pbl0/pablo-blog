@@ -16,9 +16,9 @@ const Bio = ()=>{
     for (let item of social){
         if (item.url != ''){
             let link = (
-                <div key={item.url} className='column mr-1 is-4'>
+                <div key={item.url} className='column mr-1 is-2-mobile'>
                     <a href={`https://${item.url}`}>
-                        <FontAwesomeIcon className='' icon={item.icon} size="2x"/>
+                        <FontAwesomeIcon className='my-icon' icon={item.icon}/>
                     </a>
                 </div>
 
@@ -30,7 +30,7 @@ const Bio = ()=>{
     }
 
     return (
-        <div className="column my-6">
+        <div className="column my-6 bio">
             <div className="columns is-mobile is-pulled-right">
                 <ThemeChanger></ThemeChanger>
                 {links}

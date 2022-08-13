@@ -21,15 +21,15 @@ const ThemeChanger = () => {
 
   let darkTheme = isDarkTheme();
   return (
-    <div className='column mr-1 is-4'>
+    <div className='column mr-1 is-2-mobile'>
         { darkTheme ? (
             <a onClick={() => setTheme('light')}>
-                <FontAwesomeIcon className='' icon={faSun} size="2x"/>
+                <FontAwesomeIcon className='my-icon' icon={faSun}/>
             </a>
         )
         : ( 
             <a onClick={() => setTheme('dark')}>
-                <FontAwesomeIcon className='' icon={faMoon} size="2x"/>
+                <FontAwesomeIcon className='my-icon' icon={faMoon}/>
             </a>
         ) }
     
