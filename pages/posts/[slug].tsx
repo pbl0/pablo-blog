@@ -65,8 +65,9 @@ const PostSlug = ({ post, preview }: Props) => {
                 height={post.height}
               />
               <PostBody content={post.content} />
-              
+              <h4 className="title is-4">A random emoji</h4>
               <div className='emoji'>
+                
                 <a title="A random emoji" onClick={randomEmoji} >{emoji}</ a>
               </div>
                 
