@@ -35,5 +35,5 @@ Why not?
 
 ### Where the source?
 
-If you really want to check the source code you can [click here](https://github.com/pbl0/pablo-blog). But be aware, this is one of my first React (NextJS) projects so the code could be (and probably is) a bit too messy, so make sure to bring an umbrella.
+If you really want to check the source code you can [click here](https://github.com/pbl0/pablo-blog). But be aware, this is one of my first React (NextJS) projects so the code could be (and probably is) a bit too messy and poorly documented, so make sure to bring an umbrella.
 
