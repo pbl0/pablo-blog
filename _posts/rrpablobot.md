@@ -16,4 +16,4 @@ In this post I'll showcase a bit my brand new telegram bot. In the recent years 
 
 This time I bring a telegram bot which will scrape the web version of the game and retrieve useful data. It's been running for more than a month on my raspberry pi, and besides some issues with the game cookies expiring, it works great.
 
-If you happen to also play Rival Regions and want to try [@rrpablobot](https://t.me/rrpablobot) just talk to it and send a link of the game. You can also add it to groups! [Read more](https://rr-tools.eu/pablobot).
+If you happen to also play Rival Regions and want to try [@rrpablobot](https://t.me/rrpablobot) just talk to him and send a link of the game. You can also add it to groups! [Read more](https://rr-tools.eu/pablobot).
