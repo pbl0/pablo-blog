@@ -25,7 +25,7 @@ Because Kobo devices are capable to read .epub files, while kindle are limited t
 
 ## Mods and Apps
 
-When it arrived I didn't know it had such a great modding community. Funnily enough my device already came with koreader and nickelmenu pre-installed. I will list the hacks/modifications I've tried.
+When it arrived I didn't know it had such a great modding community. Funnily enough my device already came with koreader and nickelmenu pre-installed. I will list the hacks/modifications I've tried...
 
 ### Koreader & Plato
 

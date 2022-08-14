@@ -1,6 +1,6 @@
 ---
 title: '@rrpablotbot'
-excerpt: "This time I bring a telegram bot which will scrape the web version of the game and retrieve useful data. If you happen to also play Rival Regions and want to try my bot just talk to it and send a link of the game. You can also add it to groups!"
+excerpt: "This time I bring a telegram bot which will scrape the web version of the game and retrieve useful data. If you happen to also play Rival Regions and want to try my bot..."
 coverImage: '/assets/blog/rrpablobot/cover.jpg'
 date: '2022-04-10T14:25:07.322Z'
 author:

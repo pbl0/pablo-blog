@@ -1,6 +1,6 @@
 ---
 title: "I've switched to Next.js"
-excerpt: "As you may have read on my first post this blog started as a little GatsbyJS application. Although I like Gatsby, It's been a while I was wanting to dip my toes on Next.js for a while as so many videos and articles were always pointing out how great it is."
+excerpt: "As you may have read on my first post this blog started as a little GatsbyJS application. Although I like Gatsby, It's been a while I was wanting to dip my toes on NextJS..."
 coverImage: '/assets/blog/switch/cover.png'
 date: '2022-04-09T14:25:07.322Z'
 author:

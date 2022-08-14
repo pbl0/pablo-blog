@@ -35,13 +35,13 @@ const HeroPost = ({
         <CoverImage title={title} src={coverImage} slug={slug} width={width} height={height} />
       </div>
       <div className="mb-6">
-        <div className='columns is-mobile'>
+        <div className='columns'>
           <h3 className="title is-5 column column is-two-thirds is-mobile">
             <Link as={`/posts/${slug}`} href="/posts/[slug]">
               <a className="is-link">{title}</a>
             </Link>
           </h3>
-          <div className="column has-text-weight-light has-text-right">
+          <div className="column has-text-weight-light">
             <DateFormatter dateString={date} />
           </div>
         </div>

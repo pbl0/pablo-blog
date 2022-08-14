@@ -1,14 +1,21 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faGithub, faYoutube} from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faGithub, faYoutube, IconDefinition} from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link'
 import ThemeChanger from './theme-changer'
 
+
+interface socialItem{
+    url: string,
+    icon: IconDefinition,
+    title: string
+}
+
 const Bio = ()=>{
 
-    const social = [
-        {url:'github.com/pbl0', icon: faGithub},
-        {url:'instagram.com/hipi__hapa', icon: faInstagram},
-        {url:'www.youtube.com/channel/UCoI4HY4K4CB_J8O_Mphlnbw', icon: faYoutube}
+    const social: socialItem[] = [
+        {url:'github.com/pbl0', icon: faGithub, title:'Github'},
+        {url:'instagram.com/hipi__hapa', icon: faInstagram, title:'Instagram'},
+        {url:'www.youtube.com/channel/UCoI4HY4K4CB_J8O_Mphlnbw', icon: faYoutube, title: 'Youtube'}
     ]
 
     let links = []
@@ -17,7 +24,7 @@ const Bio = ()=>{
         if (item.url != ''){
             let link = (
                 <div key={item.url} className='column mr-1 is-2-mobile'>
-                    <a href={`https://${item.url}`}>
+                    <a title={item.title} href={`https://${item.url}`}>
                         <FontAwesomeIcon className='my-icon' icon={item.icon}/>
                     </a>
                 </div>

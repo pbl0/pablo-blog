@@ -1,6 +1,6 @@
 ---
 title: 'Banana Spleet'
-excerpt: "Recently I've been working on my spare time on a simple GUI app for the interesting tool called Spleeter by Deezer. Spleeter is a 'source separation library with petrained models' whatever that means."
+excerpt: "Recently I've been working on my spare time on a simple GUI app for the interesting tool called Spleeter by Deezer. Spleeter is a 'source separation library with petrained models' whatever that means..."
 coverImage: '/assets/blog/banana-spleet/Screenshot.png'
 date: "2022-01-02T18:30:00.000Z"
 author:
