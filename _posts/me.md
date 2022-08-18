@@ -13,17 +13,12 @@ height: ''
 hidden: true
 ---
 
-I'm Pablo, a (web) programmer and this is my website. Professionally I've worked mostly with Angular, but from time to time I also mess around with Python, React, Godot and a few others. Besides computers and programming I also love listening (and sometimes pretending to play) music, playing video-games and reading books. I also have fun with some gardening and taking random pictures. Oh, I also like dogs, of course.
+I'm Pablo, a programmer and this is my website. Professionally I've worked mostly with Angular, but from time to time I also mess around with Python, React, Godot and a few others. Besides computers and programming I also love [listening](/music) (and sometimes pretending to play) music, playing video-games and reading books. I also have fun with some gardening and [taking random pictures](https://instagram.com/hipi__hapa). Oh, I also like dogs, of course.
 
 ### Why did you make a website?
 Why not?
 
-### Some hobby projects I've made
-- [RR Tools](https://rr-tools.eu) (Angular & [Android](https://play.google.com/store/apps/details?id=eu.rrtools.app))
-- [pablo bot](https://t.me/rrpablobot) (Python telegram bot)
-- [This website](https://www.pablob.eu/) (Next.js/React)
-- [Banana Spleet](https://github.com/pbl0/banana_spleet) (Python)
-- [Lambda-rr](https://pbl0.github.io/lambda-rr/) (Jekyll)
+### [Some hobby projects I've made](./code)
 
 ### Some fancy stats
 

@@ -26,6 +26,11 @@ const Intro = () => {
                   <a>me</a>
                 </Link>
               </li>
+              <li className={url=='/posts/code'?"is-active":""}>
+                <Link href='/posts/code'>
+                  <a>code</a>
+                </Link>
+              </li>
               <li className={url=='/music'?"is-active":""}>
                 <Link href="/music">
                   <a>music</a>
