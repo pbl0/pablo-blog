@@ -7,6 +7,7 @@
     --text: #252B2C;
     --link-hover: #252B2C;
     --border-tab: hsl(0deg, 0%, 86%);
+    --pre-background-color: #F5F5F5;
   }
   
   [data-theme='dark'] {
@@ -16,7 +17,9 @@
     --text: #CECAC4;
     --link-hover: #CECAC4;
     --border-tab: rgb(58, 63, 65);
+    --pre-background-color: #1e2021;
   }
+
 
 
 $link: #56AEC4;
@@ -29,8 +32,11 @@ $text: var(--text);
 
 @import '~bulma/bulma';
 
+pre, code{
+    background-color: var(--pre-background-color);
+}
 
-.title {
+.title, strong {
     color: $text;
 }
 
