@@ -1,6 +1,6 @@
 ---
 title: 'Launchpad2KB'
-excerpt: "Recently I've been working on my spare time on a simple GUI app for the interesting tool called Spleeter by Deezer. Spleeter is a 'source separation library with petrained models' whatever that means..."
+excerpt: "A linux CLI tool to map keyboard hotkeys with the Novation Launchpad device."
 coverImage: '/assets/blog/launchpad2kb/launchpad2kb.jpg'
 date: "2022-08-21T20:40:00.000Z"
 author:
