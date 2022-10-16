@@ -5,7 +5,6 @@ import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import Post from '../types/post'
-import Bio from '../components/bio'
 import { config, dom } from "@fortawesome/fontawesome-svg-core";
 
 config.autoAddCss = false;
