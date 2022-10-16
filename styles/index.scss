@@ -8,6 +8,7 @@
     --link-hover: #252B2C;
     --border-tab: hsl(0deg, 0%, 86%);
     --pre-background-color: #F5F5F5;
+    --background-eyes: #E1F0F0
   }
   
   [data-theme='dark'] {
@@ -18,6 +19,7 @@
     --link-hover: #CECAC4;
     --border-tab: rgb(58, 63, 65);
     --pre-background-color: #1e2021;
+    --background-eyes: #56AEC4
   }
 
 
@@ -27,7 +29,7 @@ $primary: $link;
 $white: #E1F0F0;
 
 $hr: var(--hr);
-$body-background-color: var(--body-background-color);
+// $body-background-color: var(--body-background-color);
 $text: var(--text);
 
 @import '~bulma/bulma';
@@ -56,6 +58,8 @@ a:hover {
 
 body {
     font-family: Ubuntu, Fira sans, -apple-system, sans-serif;
+    background-color: var(--body-background-color);
+    transition: background-color 0.5s ease;
 }
 
 hr {
@@ -121,7 +125,9 @@ iframe{
     width: 90px;
     height: 90px;
     user-select: none;
-    border-radius: 50px;
+    border-radius: 6px;
+    background-color: var(--background-eyes);
+    transition: background-color 0.5s ease;
 }
 
 .left{
@@ -152,4 +158,16 @@ iframe{
     height: 7px;
     border-radius: 50%;
     background: black;
+}
+
+.eye::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    left: 9px;
+    width: 2px;
+    height: 2px;
+    background: $white;
+    border-radius: 50%;
 }
