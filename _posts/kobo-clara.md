@@ -14,28 +14,28 @@ height: '1200'
 
 For some time I've been trying to recover the habit of reading. For some reason I thought that the best way of accomplishing that was to buy an eReader device.
 
-Last year I've got myself a fairly cheap refurbished [Kobo Clara HD](https://gl.kobobooks.com/products/kobo-clara-hd) from Ali Express. The experience has been very pleasant overall and I definitely read more now.
+So, last year I've got myself a fairly cheap refurbished [Kobo Clara HD](https://gl.kobobooks.com/products/kobo-clara-hd) from Ali Express. The experience has been very pleasant overall and I definitely read more now.
 
 <img src="/assets/blog/kobo-clara/menu.jpg" alt="Kobo main menu image" width="640"/>
 
 
 ## Why not Kindle?
 
-Because Kobo devices are capable to read .epub files, while kindle are limited to their proprietary format.
+Because Kobo devices are capable to read `.epub` files, while kindle are limited to their proprietary format.
 
 ## Mods and Apps
 
-When it arrived I didn't know it had such a great modding community. Funnily enough my device already came with koreader and nickelmenu pre-installed. I will list the hacks/modifications I've tried...
+When it arrived I didn't know it had such a great modding community. Funnily enough my device already came with koreader and nickelmenu pre-installed. I will list the hacks/modifications I've tried.
 
 ### Koreader & Plato
 
-These two are alternative reader apps. [Koreader](https://koreader.rocks/) has an horrendous UI but has many advanced features. [Plato](https://github.com/baskerville/plato),  on the other hand, it's much prettier and user friendly. In the end I prefer using the default reader most of the time, the other two seem to be better for PDF reading which I seldom do.
+These two are alternative reader apps. [Koreader](https://koreader.rocks/) has an horrendous UI but has many advanced features. [Plato](https://github.com/baskerville/plato),  on the other hand, it's much prettier and user friendly. In the end I prefer using the default reader most of the time, although the previous two seem to be better for PDF reading which I seldom do.
 
 ### Nickelmenu
 
 <img src="/assets/blog/kobo-clara/nickelmenu.jpg" alt="Nickelmenu image" width="420"/>
 
-[Nickelmenu](https://pgaskin.net/NickelMenu/) allows to add new entries to the many different menus such as starting a ftp server, opening the web browser, importing new books added, opening koreader, etc. Requires a bit of manual confifuration but it was easy enough.
+[Nickelmenu](https://pgaskin.net/NickelMenu/) allows to add new entries to the many different menus such as start a ftp server, open the web browser, import new books, run apps, etc. Requires a bit of manual configuration but it was easy enough.
 
 ### Kepubify
 
