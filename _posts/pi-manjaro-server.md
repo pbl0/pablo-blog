@@ -17,7 +17,7 @@ Instructions to set up a media server running [Manjaro ARM Minimal](https://manj
 ## Why Manjaro?
 After trying [DietPi](https://dietpi.com/) and completely breaking the system after I did something wrong while updating it, I decided to try Manjaro ARM instead, which was super easy to set up. I know that neither Manjaro nor Arch are meant to be used on a server system, but it's been working fine on my Raspberry Pi4 for almost 2 years.
 
-While Manjaro offers access to [AUR](https://aur.archlinux.org/) packages I've decided to use docker instead for packages that aren't on Manjaro repos.
+While Manjaro offers access to [AUR](https://aur.archlinux.org/) packages I've decided to use docker instead for packages that aren't available on Manjaro repos.
 
 ## Configuration
 
