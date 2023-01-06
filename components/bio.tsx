@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faGithub, faYoutube, IconDefinition} from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faGithub, faYoutube, IconDefinition, faTwitter} from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link'
 import ThemeChanger from './theme-changer'
 
@@ -14,7 +14,7 @@ const Bio = ()=>{
 
     const social: socialItem[] = [
         {url:'github.com/pbl0', icon: faGithub, title:'Github'},
-        {url:'instagram.com/hipi__hapa', icon: faInstagram, title:'Instagram'},
+        {url:'twitter.com/hipi_hapa', icon: faTwitter, title:'Twitter'},
         {url:'www.youtube.com/channel/UCoI4HY4K4CB_J8O_Mphlnbw', icon: faYoutube, title: 'Youtube'}
     ]
 
