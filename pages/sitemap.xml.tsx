@@ -1,4 +1,4 @@
-import { getAllPosts } from '../lib/api'
+import { getAllPosts } from "../lib/api";
 import type { GetServerSidePropsContext } from "next/types";
 
 // https://www.sandromaglione.com/techblog/how-to-add-dynamic-sitemap-nextjs-blog
@@ -10,19 +10,19 @@ const WEBSITE_URL = "https://www.pablob.eu";
 // https://www.sitemaps.org/protocol.html
 
 export async function getServerSideProps({ res }: GetServerSidePropsContext) {
-    const allPosts = getAllPosts([
-        'title',
-        'date',
-        'slug',
-        'author',
-        'coverImage',
-        'width',
-        'height',
-        'excerpt',
-        'hidden'
-      ])
+  const allPosts = getAllPosts([
+    "title",
+    "date",
+    "slug",
+    "author",
+    "coverImage",
+    "width",
+    "height",
+    "excerpt",
+    "hidden",
+  ]);
 
-    const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url><loc>${WEBSITE_URL}</loc></url>
     ${allPosts
