@@ -25,7 +25,7 @@ export async function getServerSideProps({ res }: GetServerSidePropsContext) {
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
-      <loc>$<loc>${WEBSITE_URL}</loc></loc>
+      <loc>${WEBSITE_URL}</loc>
       <lastmod>2023-01-01T13:30:00.000Z</lastmod>
       <priority>1.00</priority>
       <changefreq>weekly</changefreq>
