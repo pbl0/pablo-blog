@@ -1,6 +1,6 @@
 ---
 title: 'Remove Kobo DRM'
-excerpt: "Recently I've been working on my spare time on a simple GUI app for the interesting tool called Spleeter by Deezer. Spleeter is a 'source separation library with petrained models' whatever that means..."
+excerpt: "How to remove DRM from books downloaded on Kobo store"
 coverImage: '/assets/blog/remove-kobo-drm/cover.png'
 date: "2023-01-14T20:05:00.000Z"
 author:
