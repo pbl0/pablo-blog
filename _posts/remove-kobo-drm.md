@@ -30,24 +30,25 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Now we can start using kobo-book-downloader, the first time we run it, it will ask for your credentials. It only seems to work if you have a Kobo account that was registered using an email instead external login provider (e.g. google, facebook, rakuten). If you account is not registered with an email you can create a new account and later link it with your original account as explained [here](https://github.com/TnS-hun/kobo-book-downloader/issues/10#issuecomment-536278278).
+4. Now we can start using kobo-book-downloader, the first time it will ask for your Kobo credentials. 
+5. This only seems to work if you have a Kobo account that was registered using an email instead of an external login provider (e.g. google, facebook, rakuten). If your account isn't registered with an email you can create a new account and then link it with your original account as explained [here](https://github.com/TnS-hun/kobo-book-downloader/issues/10#issuecomment-536278278).
 ```
 python kobo-book-downloader list --all
 ```
 
-5. After following the initial setup instructions you will be shown with a list of your purchased books.
+6. After following the initial setup instructions, a list will be shown with the books you've bought.
 
 <img src="/assets/blog/remove-kobo-drm/list.png" alt="List command image" width="420"/>
 
-6. To download a book run the following command and choose the file(s) to download.
+7. To download a book run the following command and choose the file(s) to download.
 ```
 python kobo-book-downloader pick destination_dir/
 ```
 
 <img src="/assets/blog/remove-kobo-drm/list.png" alt="Pick command image" width="420"/>
 
-7.  The end result is a lovely DRM-free `.epub` file ready to be read in any eReader!
+8.  The end result is a lovely DRM-free `.epub` file ready to be read in any eReader!
 
-8. kobo-book-downloader also offers other commands. Read more at their [Github readme](https://github.com/TnS-hun/kobo-book-downloader#readme).
+9. kobo-book-downloader also offers other commands. Read more at their [Github readme](https://github.com/TnS-hun/kobo-book-downloader#readme).
 
 Bye.
