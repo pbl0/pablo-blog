@@ -119,4 +119,4 @@ Haven't tested in Windows/MacOS.
 
 ### Cells
 
-<img src="/assets/blog/launchpad2kb/cells.png" alt="Nickelmenu image" width="420"/>
+<img src="/assets/blog/launchpad2kb/cells.png" alt="cells image" width="420"/>
