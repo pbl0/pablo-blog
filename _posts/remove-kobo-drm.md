@@ -12,7 +12,7 @@ width: '700'
 height: '455'
 ---
 
-How to remove DRM from books downloaded on Kobo store using **[kobo-book-downloader](https://github.com/TnS-hun/kobo-book-downloader)**.
+How to remove DRM of books purchased on Kobo store using **[kobo-book-downloader](https://github.com/TnS-hun/kobo-book-downloader)**.
 
 1. Clone kobo-book-downloader repo:
 ```
@@ -50,5 +50,7 @@ python kobo-book-downloader pick destination_dir/
 8.  The end result is a lovely DRM-free `.epub` file ready to be read in any eReader!
 
 9. kobo-book-downloader also offers other commands. Read more at their [Github readme](https://github.com/TnS-hun/kobo-book-downloader#readme).
+
+> I noticed that on some free books it will fail to download, it usually means that the original file is already DRM-free.
 
 Bye.
