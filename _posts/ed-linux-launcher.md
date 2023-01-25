@@ -1,6 +1,6 @@
 ---
-title: "Fix Elite Dangerous issues on linux"
-excerpt: "How to remove DRM from books downloaded on Kobo store"
+title: "Fix Elite Dangerous issues on Linux"
+excerpt: "Elite Dangerous used to be playable out the box using Steam proton but now it isn't"
 coverImage: "/assets/blog/minedlauncher/cover.png"
 date: "2023-01-25T23:40:00.000Z"
 author:
@@ -12,9 +12,9 @@ width: "2560"
 height: "1440"
 ---
 
-## How to fix Elite Dangerous launcher issues on linux
+## How to fix Elite Dangerous launcher issues on Linux
 
-Elite Dangerous used to be playable out the box using Steam proton but for some reason in the last few years it has become an immense hassle to play Elite Dangerous on linux. While the game itself runs fine most of the times the launcher itself it's the one causing issues and it's completely broken under Linux.
+Elite Dangerous used to be playable out the box using Steam Proton but for some reason in the last few years it has become an immense hassle to play Elite Dangerous on Linux. While the game itself runs fine most of the times the launcher itself it's the one causing issues and it's completely broken under Linux.
 
 Sadly, Frontier Developments doesn't seem to care enough about Linux users, so we might need to try many of the solutions that users have suggested at [protondb](https://www.protondb.com/app/359320) and see if anything works, which in my case they never did, except one.
 
