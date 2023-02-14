@@ -1,15 +1,15 @@
 ---
-title: 'Launchpad2KB'
+title: "Launchpad2KB"
 excerpt: "A linux CLI tool to map keyboard hotkeys with the Novation Launchpad device."
-coverImage: '/assets/blog/launchpad2kb/launchpad2kb.jpg'
+coverImage: "/assets/blog/launchpad2kb/launchpad2kb.jpg"
 date: "2022-08-21T20:40:00.000Z"
 author:
   name: Pablo
-  picture: ''
+  picture: ""
 ogImage:
-  url: '/assets/blog/launchpad2kb/launchpad2kb.jpg'
-width: '959'
-height: '989'
+  url: "/assets/blog/launchpad2kb/launchpad2kb.jpg"
+width: "959"
+height: "989"
 ---
 
 A linux CLI tool to map keyboard hotkeys with the Novation Launchpad device.
@@ -21,7 +21,6 @@ Read on [Github](https://github.com/pbl0/Launchdpad2KB#readme)
 ### Usage
 
 Download and unzip from [latest release](https://github.com/pbl0/Launchdpad2KB/releases/latest)
-
 
 ```
 ./launchpad2KB
@@ -39,12 +38,12 @@ Or
 ./launchpad2KB -p 1 -c config/config.yml
 ```
 
-For some reason sometimes it won't start detecting the device presses. When this happens pressing the `mixer` button on the top-right is enough for it to start working.
+For some reason sometimes it won't start detecting the device presses. When this happens pressing the `mixer` button on the top-right of your device is enough for it to start working.
 
 ### Configuration
 
-The configuration file must be a `.yaml` or `.yml` format.
-There is an example config file at `config/config.yml`.
+The configuration file must be in `.yaml` or `.yml` format.
+There is an example config file at [config/config.yml](https://github.com/pbl0/Launchdpad2KB/blob/master/config/config.yml).
 For each cell you will require to set it as follows:
 
 Example:
@@ -62,9 +61,7 @@ This will bind the cell 112 to trigger `CTRL+SHIFT+E` when pressed.
 
 - `cell` indicates the cell number (see image below).
 - `keys` are the keyboard keys to be pressed. [Keys reference](/assets/blog/launchpad2kb/key_names_reference.json).
-- `color` is a number ranging from 0 to 127. 
-
-
+- `color` is a number ranging from 0 to 127.
 
 Example of multiple cells:
 
@@ -89,7 +86,8 @@ Example of multiple cells:
 
 ### Run from source
 
-- Create virtual enviroment & install dependencies 
+- Create virtual enviroment & install dependencies
+
 ```
 virtualenv env
 source env/bin/activate
@@ -99,23 +97,28 @@ pìp install -r requirements.txt
 - Tkinter is also required:
 
 **Arch linux**
+
 ```
 sudo pacman -S tk
 ```
+
 **Debian & Ubuntu**
+
 ```
 sudo apt-get install python3-tk
 ```
+
 **Fedora**
+
 ```
 sudo dnf install python3-tkinter
 ```
 
 Then run as shown previously replacing `./launchpad2KB` with `python src/main.py`.
 
-Haven't tested in Windows/MacOS.
+Haven't tested it on Windows/MacOS.
 
-* * *
+---
 
 ### Cells
 
