@@ -1,173 +1,189 @@
-@import '../node_modules/bulma/sass/utilities/initial-variables';
+@import "../node_modules/bulma/sass/utilities/initial-variables";
 
 :root {
-    /* Your default theme */
-    --hr: #56AEC460;
-    --body-background-color: #E1F0F0;
-    --text: #252B2C;
-    --link-hover: #252B2C;
-    --border-tab: hsl(0deg, 0%, 86%);
-    --pre-background-color: #F5F5F5;
-    --background-eyes: #E1F0F0
-  }
-  
-  [data-theme='dark'] {
-    /* Dark theme */
-    --hr: #56AEC4;
-    --body-background-color: #181A1B;
-    --text: #CECAC4;
-    --link-hover: #CECAC4;
-    --border-tab: rgb(58, 63, 65);
-    --pre-background-color: #1e2021;
-    --background-eyes: #56AEC4
-  }
+  /* Your default theme */
+  --hr: #56aec460;
+  --body-background-color: #e1f0f0;
+  --text: #252b2c;
+  --link-hover: #252b2c;
+  --border-tab: hsl(0deg, 0%, 86%);
+  --pre-background-color: #f5f5f5;
+  --background-eyes: #e1f0f0;
+}
 
+[data-theme="dark"] {
+  /* Dark theme */
+  --hr: #56aec4;
+  --body-background-color: #181a1b;
+  --text: #cecac4;
+  --link-hover: #cecac4;
+  --border-tab: rgb(58, 63, 65);
+  --pre-background-color: #1e2021;
+  --background-eyes: #56aec4;
+}
 
-
-$link: #56AEC4;
+$link: #56aec4;
 $primary: $link;
-$white: #E1F0F0;
+$white: #e1f0f0;
 
 $hr: var(--hr);
 $body-background-color: var(--body-background-color);
 $text: var(--text);
 
-@import '~bulma/bulma';
+@import "~bulma/bulma";
 
-pre, code{
-    background-color: var(--pre-background-color);
+pre,
+code {
+  background-color: var(--pre-background-color);
 }
 
-.title, strong {
-    color: $text;
+.title,
+strong {
+  color: $text;
 }
 
-.iconito{
-    cursor: pointer;
-    font-size: 15px;
+.iconito {
+  cursor: pointer;
+  font-size: 15px;
 }
 
-.my-link{
-    cursor: pointer;
+.my-link {
+  cursor: pointer;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: var(--link-hover) !important
+  text-decoration: underline;
+  color: var(--link-hover) !important;
 }
 
 body {
-    font-family: Ubuntu, Fira sans, -apple-system, sans-serif;
-    background-color: var(--body-background-color);
-    transition: background-color 0.5s ease;
+  font-family: Ubuntu, Fira sans, -apple-system, sans-serif;
+  background-color: var(--body-background-color);
+  transition: background-color 0.5s ease;
 }
 
 hr {
-    border: 0.5px solid $hr;
+  border: 0.5px solid $hr;
 }
 
-iframe{
-    margin-bottom: 2em;
+iframe {
+  margin-bottom: 2em;
 }
 
-.principal{
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+.principal {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.emoji{
-    transition: font-size 0.5s;
-    font-size: 49px;
+.emoji {
+  transition: font-size 0.5s;
+  font-size: 49px;
 }
-.emoji:hover{
-    font-size: 69px;
-}
-
-.tabs ul{
-    border-bottom-color: var(--border-tab);
-}
-.tabs a{
-    border-bottom-color: var(--border-tab);
-}
-.tabs a:hover{
-    border-bottom-color: var(--hr);
+.emoji:hover {
+  font-size: 69px;
 }
 
-@media (min-width: 769px)  {
-    .my-icon{
-        font-size: 2em;
-    }
+.tabs ul {
+  border-bottom-color: var(--border-tab);
 }
-@media (max-width: 768px)  {
-    .is-pulled-right{
-        float: left !important;
-    }
-
-    .my-icon{
-        font-size: 1.5em;
-    }
-
-
+.tabs a {
+  border-bottom-color: var(--border-tab);
+}
+.tabs a:hover {
+  border-bottom-color: var(--hr);
 }
 
-@media (max-width: 1120px)  {
-    .face, .eye{
-        display: none;
-    }
+@media (min-width: 769px) {
+  .my-icon {
+    font-size: 2em;
+  }
+}
+@media (max-width: 768px) {
+  .is-pulled-right {
+    float: left !important;
+  }
+
+  .my-icon {
+    font-size: 1.5em;
+  }
 }
 
-.face{
-    position: fixed;
-    left: 60px;
-    top: 170px;
-    z-index: 3;
-    width: 90px;
-    height: 90px;
-    user-select: none;
-    border-radius: 6px;
-    background-color: var(--background-eyes);
-    transition: background-color 0.5s ease;
+@media (max-width: 1120px) {
+  .face,
+  .eye {
+    display: none;
+  }
 }
 
-.left{
-    left: 19px;
+.face {
+  position: fixed;
+  left: 60px;
+  top: 170px;
+  z-index: 3;
+  width: 90px;
+  height: 90px;
+  user-select: none;
+  border-radius: 6px;
+  background-color: var(--background-eyes);
+  transition: background-color 0.5s ease;
 }
 
-.right{
-    right: 25px;
+.left {
+  left: 19px;
 }
 
-.eye{
-    position: absolute;
-    bottom: 43px;
-    display: block;
-    width: 17px;
-    height: 17px;
-    border-radius: 50%;
+.right {
+  right: 25px;
 }
 
-.eye::before{
-    content: "";
-    position: absolute;
-    display: block;
-    z-index: 0;
-    top: 1px;
-    left: 5px;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: black;
+.eye {
+  position: absolute;
+  bottom: 43px;
+  display: block;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
 }
 
-.eye::after{
-    content: "";
-    position: absolute;
-    z-index: 1;
-    top: 2px;
-    left: 9px;
-    width: 2px;
-    height: 2px;
-    background: $white;
-    border-radius: 50%;
+.eye::before {
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: 0;
+  top: 1px;
+  left: 5px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: black;
+}
+
+.eye::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 9px;
+  width: 2px;
+  height: 2px;
+  background: $white;
+  border-radius: 50%;
+}
+
+// FOR YOUTUBE IFRAME
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
