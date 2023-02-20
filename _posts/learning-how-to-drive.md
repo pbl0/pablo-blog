@@ -8,8 +8,8 @@ author:
   picture: ""
 ogImage:
   url: "/assets/blog/ac/lhtd.png"
-width: "1920"
-height: "1080"
+width: "1902"
+height: "1047"
 ---
 
 Just showing off some visual mods, dynamic weather and my bad driving. My computer isn't very powerful but still very pretty to look at.
