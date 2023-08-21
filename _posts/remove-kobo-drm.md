@@ -42,7 +42,7 @@ python kobo-book-downloader list --all
 
 6. After following the initial setup instructions, a list will be shown with the books you've bought.
 
-<img src="/assets/blog/remove-kobo-drm/list.png" alt="List command image" width="720"/>
+<img src="/assets/blog/remove-kobo-drm/list.png" alt="Example of list command" width="720"/>
 
 7. To download a book run the following command and choose the file(s) to download.
 
@@ -50,7 +50,7 @@ python kobo-book-downloader list --all
 python kobo-book-downloader pick destination_dir/
 ```
 
-<img src="/assets/blog/remove-kobo-drm/list.png" alt="Pick command image" width="720"/>
+<img src="/assets/blog/remove-kobo-drm/download.png" alt="Example of pick command" width="720"/>
 
 8.  The end result is a lovely DRM-free `.epub` file ready to be read in any eReader!
 
